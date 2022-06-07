@@ -3,7 +3,10 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    color: #F9FAF8;
+}
+
+.secondary-text {
+    color: #E5E7EB;
 }
 
 .logo {
@@ -35,7 +38,9 @@ li {
     list-style-type: none;
     text-decoration: none;
     height: 60px;
+    color: #E5E7EB;
 }
+
 
 .header_container {
     display: flex;
@@ -48,19 +53,18 @@ li {
 
 .header_image {
     display: flex;
-    width: 400px;
+    width: 350px;
     height: 200px;
 
 }
 
 .welcome_message {
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .welcome_header {
     width: 500px;
-    flex: 1 1 au
 }
 
 button {
@@ -70,64 +74,28 @@ button {
     padding: 10px 15px;
 }
 
-
-/* .move_left,
-.move_right {
+.steps {
     display: flex;
-    gap: 16px;
+    justify-content: center;
 }
-
-
-ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-}
-
-.welcome_message {
-    width: 500px;
-}
-
 
 .info_container {
     display: flex;
     justify-content: center;
-
-    flex-wrap: reverse-wrap;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-}
-
-.image {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 200px;
-    flex-wrap: wrap;
-    gap: 8px;
+    gap: 20px;
 }
 
 .steps {
     text-align: center;
 }
 
-.quote_container {
-    display: flex;
+.photo_steps {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
 
-.navlinks {}
-
-.footer_container {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: center;
-    align-items: center;
-    color: white;
-} */
-*/
+.image {
+    max-width: 300px;
+}
